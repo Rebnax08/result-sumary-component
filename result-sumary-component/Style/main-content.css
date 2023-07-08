@@ -1,0 +1,94 @@
+.results-sumary{
+    width: 70%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-items:center;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(6, auto);
+    font-size: 18px;
+}
+.container1{
+    background: linear-gradient(#7857FF, #2e2be9);
+    display: grid;
+    text-align: center;
+    margin-left: 400px;
+    color: white;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),0 0  0  rgb(255,255,255),0.3em 0.3em 1em rgba(0,0,0,0.3);
+    grid-auto-columns: 250px;
+    border-radius: 15px;
+}
+
+.container2 {
+    display: grid;
+    text-align: center;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),0 0  0 2px rgb(255,255,255),0.3em 0.3em 1em rgba(0,0,0,0.3);
+    grid-auto-columns: 250px;
+    grid-auto-rows: 70px;
+    border-radius: 15px;
+}
+.circulo{
+    background: linear-gradient(blueviolet, #1C39BB);
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    margin-left: 18%;
+}
+.circulo > .contador{
+    font-size: larger;
+}
+.paragraph{
+    margin: 10%;
+}
+.rojo{
+    background-color: rgba(255, 0, 0, 0.37);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 4%;
+    border-radius: 8px;
+}
+.rojo > .red {
+    color: red;
+}
+.amarillo{
+    background-color: rgba(238, 255, 0, 0.349);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 4%;
+    border-radius: 8px;
+}
+.amarillo> .yellow{
+    color: orange;
+}
+.verde{
+    background-color: rgba(4, 255, 4, 0.377);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 4%;
+    border-radius: 8px;
+}
+.verde > .green{
+    color: green;
+}
+.azul{
+    background-color: rgba(0, 0, 255, 0.171);
+    margin: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 8px;
+}
+.azul > .blue{
+    color: blue;
+}
+.continue{
+    background-color: rgb(29, 28, 28);
+    color: white;
+    padding: 9px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin: 5%;
+    border-radius: 5rem;
+}
+.container2 > .titulo{
+    padding-right: 50%;
+}
